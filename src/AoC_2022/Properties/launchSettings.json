@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "AoC_2022_2": {
+      "commandName": "Project",
+      "commandLineArgs": "2"
+    },
+    "Aoc_2022_last": {
+      "commandName": "Project"
+    }
+  }
+}
