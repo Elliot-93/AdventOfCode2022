@@ -18,7 +18,7 @@ public class Day_03 : BaseDay
                 c1 = i.Substring(0, i.Length / 2),
                 c2 = i.Substring(i.Length / 2)
             })
-            .Select(bp => bp.c1.First(c1i => bp.c2.Contains(c1i)))
+            .Select(bp => bp.c1.Intersect(bp.c2).First())
             .Select(getItemPriority)
             .Sum()
             .ToString());
