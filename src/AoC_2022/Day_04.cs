@@ -1,7 +1,4 @@
-﻿using MoreLinq;
-using System.Linq;
-
-namespace AoC_2022;
+﻿namespace AoC_2022;
 
 public class Day_04 : BaseDay
 {
