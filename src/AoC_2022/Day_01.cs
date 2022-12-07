@@ -23,8 +23,6 @@ public class Day_01 : BaseDay
 
     private List<string> ParseInput()
     {
-        var file = new ParsedFile(InputFilePath);
-
         return File.ReadAllLines(InputFilePath).ToList();
     }   
 
