@@ -39,8 +39,6 @@ public partial class Day_07 : BaseDay
         allDirs.Add(root);
 
         var currentDir = root;
-
-        // var inputLines = File.ReadAllLines(InputFilePath).ToList();
         var file = new ParsedFile(InputFilePath);
 
         foreach (var line in file)
